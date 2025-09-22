@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="div">
+    <form onsubmit="task(event)" id="task">
+    
+    <label>Age :</label>
+    <input type="number" id="age"><br><br><br>
+
+
+    <label id="gender">Gender :</label>
+       <label>Male</label>
+    <input type="radio" name="gender" id="male" value="male" class="gender">
+    <label>Female</label>
+    <input type="radio" name="gender" id="Female" class="gender" value="female"><br><br><br>
+
+    <label>Height :</label>
+    <input type="number" id="height"><br><br><br>
+
+
+     <label>Weight :</label>
+    <input type="number" id="weight"><br><br><br>
+
+    <button id="calbtn" >Calculate</button>
+
+  
+    </form>
+
+    <p id="result"></p>
+      </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

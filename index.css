@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(186, 231, 231);
+    margin: 0;
+    padding: 0;
+}
+
+
+#age{
+
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin-left: 10px;
+    
+}
+
+#height{
+
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid grey;
+     margin-left: 10px;
+    
+}
+
+#weight{
+
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid grey;
+     margin-left: 10px;
+    
+}
+
+#calbtn{
+
+    width: 90px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: rgba(57, 239, 7, 0.873);
+    border: none;
+    border: 1px solid gray;
+     margin-left: 10px;
+
+}
